@@ -1,1 +1,43 @@
-# Jittor_Gaojia-Courtyard_Style-Transfer-Image-Generation-Competition
+
+
+# Jittor-高家小院-风格迁移图像挑战赛
+
+## 亮点
+
+- 基于DreamBooth-Lora框架实现
+- 通过GPT-4对提示词进行了优化
+- 引入了风格-内容解耦技术，将图像解耦为内容和风格
+
+## 安装 
+
+按照JDiffusion库提供的说明安装所需要的环境
+
+## 数据增强
+
+需要将数据集的路径填写到文中的path变量中
+
+```
+python run_all_en.py
+```
+
+## 训练
+
+```
+bash train_all.sh
+```
+
+## 推理
+
+我们训练好的权重可以从[https://]进行下载
+
+```
+python run_all.py
+```
+
+## 团队成员
+
+指导老师：高珊珊   
+
+单位：山东财经大学
+
+团队主要成员：李镇宇 毛德乾 戴洪浩 
